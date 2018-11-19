@@ -1,0 +1,291 @@
+body {background-color:lightgoldenrodyellow;}
+ul, ol {color:blue;}
+#will {color:blue;}
+#unless {color:blue;}
+#you {color:blue;}
+#take {color:blue;}
+#while {color:blue;}
+h1 {text-align: center;}
+#if {font-weight: bold;}
+* {font-family:"Verdana", sans-serif;}
+#nav1 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav2 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav3 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav4 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav5 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav6 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav7 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav8 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav9 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav10 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav11 {float: left; margin-left: 7px; margin-right: 7px; }
+#nav12 {float: left; margin-left: 7px; margin-right: 7px; }
+
+#nav13 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav14 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav15 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav16 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav17 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav18 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav19 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav20 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav21 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav22 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav23 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav24 {float: left; margin-left: 13px; margin-right: 13px; }
+#nav25 {float: left; margin-left: 13px; margin-right: 13px; }
+
+#casa {text-align:center;}
+#casa {color:blue;}
+#casa {font-style: italic;}
+#casa {font-family:"Verdana", sans-serif;}
+img.dayanafulldress {width: 402px; height: 604px;}
+img.align-center{display: block; margin:0px auto;}
+#nonprofit {color:red;} 
+#nonprofit {font-family:"Verdana", sans-serif;}
+#anselmo {color:blue;}
+#anselmo {font-family:"Verdana", sans-serif;}
+img.colombianflag {width: 701px; height: 526px;}
+#faq {text-align:center;}
+#faq {color:red;}
+{font-family:"Verdana", sans-serif;}
+img.dayanadresstop {width: 402px; height: 604px;}
+#answers {color:red;}
+{font-family:"Verdana", sans-serif;}
+img.dayanaheart {width: 202px; height: 169px;}
+#learn {color:red;}
+#learn {font-style:italic;}
+#learn {text-align:center;}
+{font-family:"Verdana", sans-serif;}
+#teaching {color:blue;}
+{font-family:"Verdana", sans-serif;}
+ul {width: 250px;}
+li{margin: 0px;}
+ul.steps {list-style-position: inside;}
+#the {color:red;}
+#hey {color:blue;}
+#and {color:red;}
+#in {color:red;}
+#serve {color:blue;}
+#no {color:red;}
+#are {color:blue;}
+#not {color:red;}
+#video {color:red;}
+#basic {color:blue;}
+#alright {color:red;}
+#as {color:blue;}
+#now {color:red;}
+#list {color:red;}
+#saint {color:blue;}
+#peter {color:blue;}
+#do {color:blue;}
+#really {color:red;}
+#what {color:blue;}
+#about {color:red;}
+#why {color:blue;}
+#dance {color:red;}
+#more {color:blue;}
+#each {color:red;}
+#is {color:blue;}
+#fact {color:red;}
+table.center {margin-left:auto; margin-right:auto; }
+  table {border-style:solid;}
+  table {border-top-color:red;}
+  table {border-right-color:blue;}
+  table {border-left-color:blue;}
+  table {border-bottom-color:red;}
+  table {margin-left: 20px; }
+  table {margin-right: 20px; }
+  table {margin-top: 20px; }
+  table {margin-bottom: 20px; }
+   table {padding-left: 20px; }
+  table {padding-right: 20px; }
+  table {padding-top: 20px; }
+  table {padding-bottom: 20px; }
+  #one {color:red;}
+  #two {color:blue;}
+  #three {color:red;}
+  #four {color:blue;}
+  #five {color:red;}
+  #six {color:blue}
+  #seven {color:red;}
+  #eight {color:blue;}
+  #nine {color:red;}
+  #ten {color:blue;}
+  #line {position: inline;} 
+  #copy {position: block;}
+#welcome {color:red;}
+#welcome {font-family:"Verdana", sans-serif;}
+#welcome {font-style: italic;}
+#links {color:red;}
+{font-family:"Verdana", sans-serif;}
+#links {font-style: italic;}
+ #keeping {color:blue;}
+#keeping {font-family:"Verdana", sans-serif;}
+#keeping {font-style: normal;}
+#send {color:red;}
+#send {font-family:"Verdana", sans-serif;}
+#send {font-style: normal;}
+#enjoy {color:blue;}
+#enjoy {font-family:"Verdana", sans-serif;}
+#enjoy {font-style: normal;} 
+#privacy {color:blue;}
+#privacy {font-style:italic;} 
+#privacy {font-family:"Verdana", sans-serif;}
+#notice {color:red;}
+#notice {font-style: normal;} 
+#notice {font-family:"Verdana", sans-serif;}
+#collection {color:red;}
+#collection {font-style: italic;} 
+#collection {font-family:"Verdana", sans-serif;}
+#owners {color:blue;}
+#owners {font-style: normal;} 
+#owners {font-family:"Verdana", sans-serif;}
+#respond {color:red;}
+#respond {font-style:normal;} 
+#respond {font-family:"Verdana", sans-serif;}
+#if {color:red;}
+#if {font-style: normal;} 
+#if {font-family:"Verdana", sans-serif;}
+#protect {color:blue;}
+#protect {font-style: normal;} 
+#protect {font-family:"Verdana", sans-serif;}
+#your {color:blue;}
+#your {font-style: italic;} 
+#your {font-family:"Verdana", sans-serif;}
+#may {color:red;}
+#may {font-style: normal;} 
+#may {font-family:"Verdana", sans-serif;}
+#security {color:red;}
+#security {font-style: italic;} 
+#security {font-family:"Verdana", sans-serif;}
+#faq {color:blue;}
+#faq {font-style: italic;} 
+#set {font-style: italic;} 
+#set {color:blue;}
+#company {color:blue;}
+#amazonas {color:blue;}	
+#leticia {color:red;}
+#antioquia {color:blue;}
+#medellin {color:red;}
+#arauca {color:blue;}
+#araucas {color:red;}
+#atlantico {color:blue;}
+#barranquilla {color:red;}
+#bolivar {color:blue;}
+#cartagena {color:red;}
+#boyaca {color:blue;}
+#tunja {color:red;}
+#caldas {color:blue;}
+#manizales {color:red;}
+#caqueta {color:blue;}
+#florencia {color:red;}
+#casanare {color:blue;}
+#yopal {color:red;}
+#cauca {color:blue;}
+#popayan {color:red;}
+#cesar {color:blue;}
+#valledupar {color:red;}
+#choco {color:blue;}
+#quibdo {color:red;}
+#cordoba {color:blue;}
+#monteria {color:red;}
+#cundinamarca {color:blue;}
+#bogota {color:red;}
+#guainia {color:blue;}
+#inirida {color:red;}
+#guaviare {color:blue;}
+#san {color:red;}
+#huila {color:blue;}
+#neiva {color:red;}
+#guajira {color:blue;}
+#riohacha {color:red;}
+#magdalena {color:blue;}
+#santa {color:red;}
+#meta {color:blue;}
+#villavicencio {color:red;}
+#narino {color:blue;}
+#pasto {color:red;}
+#norte {color:blue;}
+#cucuta {color:red;}
+#putumayo {color:blue;}
+#mocoa {color:red;}
+#quindio {color:blue;}
+#armenia {color:red;}
+#risaralda {color:blue;}
+#pereira {color:red;}
+#providencia {color:blue;}
+#andres {color:red;}
+#santander {color:blue;}
+#bucaramanga {color:red;}
+#sucre {color:blue;}
+#sincelejo {color:red;}
+#tolima {color:blue;}
+#ibague {color:red;}
+#valle {color:blue;}
+#cali {color:red;}
+#vaupes {color:blue;}
+#mitu {color:red;}
+#vichada {color:blue;}
+#puerto {color:red;}
+#version {color:red;}
+#note {color:blue;}
+#careful {color:red;}
+#game {color:red;}
+#colombia {color:red;}
+#colombia {font-style: italic;}
+#thanks {color:blue;}
+#flag {color:blue;}
+#flag {text-align:center;}
+#stripes {color:red;}
+#meaning {color:blue;}
+#people {color:red;}
+#anthem {color:blue;}
+#anthem {text-align:center;}
+#chorus1 {color:red;}
+#chorus2 {color:blue;}
+#stanza1 {color:red;}
+#chorus3 {color:blue;}
+#stanza2 {color:blue;}
+#chorus4 {color:red;}
+#chorus5 {color:red;}
+#chorus6 {color:blue;}
+#stanza3 {color:red;}
+#stanza5 {color:red;}
+#stanza7 {color:red;}
+#stanza9 {color:red;}
+#stanza11 {color:red;}
+#chorus7 {color:blue;}
+#chorus8 {color:red;}
+#stanza4 {color:blue;}
+#chorus9 {color:red;}
+#chorus10 {color:blue;}
+#chorus11 {color:blue;}
+#chorus12 {color:red;}
+#stanza6 {color:blue;}
+#chorus13 {color:red;}
+#chorus14 {color:blue;}
+#chorus15 {color:blue;}
+#chorus16 {color:red;}
+#stanza8 {color:blue;}
+#chorus17 {color:red;}
+#chorus18 {color:blue;}
+#chorus19 {color:blue;}
+#chorus20 {color:red;}
+#chorus21 {color:red;}
+#chorus22 {color:blue;}
+#chorus23 {color:blue;}
+#chorus24 {color:red;}
+#stanza10 {color:blue;}
+#message {color:red;}
+#poem, #hope {color:red;}
+#fact {color:blue;}
+#book {color:blue;}
+img.dayanacheco, img.huila, img.neiva, img.catedral1, img.catedral2, img.caballos, img.mohan, img.parade {width: 402px; height: 604px;}
+#music, #parade {color:blue;}
+#point, #acosta, #vives, #niche, #joe, #tio, #summer {color:red;}
+#arroyo, #cali, #carlos {color:blue;}
+#arroyo, #cali, #carlos {text-align:center;}
+#arroyo, #cali, #carlos {font-style: italic;}
+#snowy, #church, #mohan, #visit {color:red;}
+#effort, #horses {color:blue;}

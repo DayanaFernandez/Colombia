@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="dayanaheart.jpg" /><meta charset="UTF-8">
+<script src="elements.js"></script>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name is a required field ");
+        document.getElementById("fname").style.borderColor = "pink";
+        return false;
+    }
+    else
+    	{
+    	var input = document.getElementById("fname");
+		localStorage.setItem("fname", input.value);
+		alert(localStorage.getItem("fname"));
+    	}
+}
+
+if (localStorage.getItem("fname") !== null)
+{
+   var d = new Date();
+    var time = d.getHours();
+
+    if (time < 12) 
+      {
+      document.write("<b>Good morning!</b> " + localStorage.getItem("fname"));
+      }
+    if (time > 12) 
+      {
+      document.write("<b>Good afternoon!</b> " + localStorage.getItem("fname"));
+      }
+    if (time == 12) 
+      {
+      document.write("<b>Go eat lunch!</b> " + localStorage.getItem("fname"));
+      }
+}
+
+
+</script>
+</head>
+<body>
+<div id="nav1"><a href=http://www.dayanafernandez.com/casa.html>Casa Huilense</a></div>
+<div id="nav2"><a href=http://www.dayanafernandez.com/colombia.html>Colombia</a></div>
+<div id="nav3"><a href=http://www.dayanafernandez.com/huila.html>Neiva, Huila</a></div>
+<div id="nav4"><a href=http://www.dayanafernandez.com/music.html>Music</a></div>
+<div id="nav5"><a href=http://www.dayanafernandez.com/pageant.html>National Pageant</a></div>
+<div id="nav6"><a href=http://www.dayanafernandez.com/dance.html>Learn the Sanjuanero</a></div>
+<div id="nav7"><a href=http://www.dayanafernandez.com/faq.html>FAQs</a></div>
+<div id="nav8"><a href=http://www.dayanafernandez.com/links.html>Links</a></div>
+<div id="nav9"><a href=http://www.dayanafernandez.com/game.html>Game</a></div>
+<div id="nav10"><a href=http://www.dayanafernandez.com/future.html>Future Plans (new)</a></div>
+<div id="nav11"><a href=http://www.dayanafernandez.com/privacy.html>Privacy Policy</a></div>
+<br>
+<h1 id="welcome">Welcome to our contact page</h1>
+<h3>Your information:</h3>
+<form name="myForm" action="/action_page_post.php" onSubmit="return validateForm();" method="post">
+Name: <input type="text" name="fname" id="fname">
+Email: <input type="text" name="email">
+Website: <input type="url" name="website">
+Cell phone: <input type="tel" name="telephone">
+Birthday: <input type="text" name="birthdate">
+<fieldset>
+<legend>
+Your Review:
+</legend>
+<p>
+<label for=“hear-about”>
+How did you hear about us?
+</label>
+<select name=“referrer” id=“hear-about”>
+<option value=“google”>Google</option>
+<option value=“friend”>Friend</option>
+<option value=“advert”>Advert</option>
+<option value=“facebook”>Facebook</option>
+<option value=“twitter”>Twitter</option>
+<option value=“other”>Other</option>
+</select>
+</p>
+<p>
+Would you visit again?
+<br/>
+<label>
+<input type=radio name=rating value=yes />
+Yes
+</label>
+<label>
+<input type=radio name=rating value=no />
+No
+</label>
+<label>
+<input type=radio name=rating value=maybe />
+Maybe
+</label>
+</p>
+<p>
+<label for=“comments”>
+Comments
+</label>
+<br/>
+<textarea rows=4 cols=40 id=“comments”>
+</textarea>
+</p>
+<label>
+<input type=checkbox name=subscribe checked=checked />
+Sign me up for email updates
+</label>
+<br/>
+<input type=submit value=Submit />
+<button type="reset" value="Reset">Reset</button>
+</fieldset>
+</form>
+<h3 id="company">Company information:</h3>
+<address>Casa Huilense</address>
+<address>Attn: Customer Service Department</address>
+<address>1004 Pink Panda Drive, Towson, MD 21204</address>
+<a href="mailto:dayis@casahuilense.com">dayis@casahuilense.com</a>
+<address>410-311-3179</address>
+<br>
+<footer>&copy; Casa Huilense 2017</footer>
+</body>
+</html>

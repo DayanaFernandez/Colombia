@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Play Game</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="dayanaheart.jpg" /><meta charset="UTF-8">
+</head>
+<body>
+<div id="nav13"><a href=http://www.dayanafernandez.com/casa.html>Casa Huilense</a></div>
+<div id="nav14"><a href=http://www.dayanafernandez.com/colombia.html>Colombia</a></div>
+<div id="nav15"><a href=http://www.dayanafernandez.com/huila.html>Neiva, Huila</a></div>
+<div id="nav16"><a href=http://www.dayanafernandez.com/music.html>Music</a></div>
+<div id="nav17"><a href=http://www.dayanafernandez.com/pageant.html>National Pageant</a></div>
+<div id="nav18"><a href=http://www.dayanafernandez.com/dance.html>Learn the Sanjuanero</a></div>
+<div id="nav19"><a href=http://www.dayanafernandez.com/faq.html>FAQs</a></div>
+<div id="nav20"><a href=http://www.dayanafernandez.com/links.html>Links</a></div>
+<div id="nav21"><a href=http://www.dayanafernandez.com/game.html>Game</a></div>
+<div id="nav22"><a href=http://www.dayanafernandez.com/future.html>Future Plans</a></div>
+<div id="nav23"><a href=http://www.dayanafernandez.com/contactcol.html>Contact Us</a></div>
+<div id="nav24"><a href=http://www.dayanafernandez.com/privacy.html>Privacy Policy</a></div>
+<br>
+
+<h1 id="game">Let's Play...Department...Capital...Colombia!</h1>
+<div class="game">
+
+    <script>
+        // User choice
+        var userChoice =prompt("Do you choose Department, Capital or Colombia?");
+        if (! userChoice) {
+            // User choice was undefined 
+     document.write("<p>Player 1 Oops! You forgot to choose an answer! Try again!</p>");
+	} else {
+            // Display user choice
+            document.write("<p>Player 1:" + " " + userChoice + "</p>");
+        }
+        // Computer choice
+        var computerChoice = Math.random();
+        if (computerChoice < 0.34) {
+            computerChoice = "Department";
+        } else if(computerChoice <= 0.67) {
+            computerChoice = "Capital";
+        } else {
+            computerChoice = "Colombia";
+        }
+        // Display computer choice
+        document.write("<p>Computer:" + " " + computerChoice + "</p>");
+        // Compare user choice vs computer choice
+        var compare = function(choice1,choice2) {
+            if (choice1 === choice2) {
+                return "It's a tie!";
+            }
+            if (choice1 === "Department") {
+                if (choice2 === "Capital") {
+                    // department wins
+                    return "You win!";
+                } else {
+                    // Colombia wins
+                    return "Sorry! Better luck next time.";
+                }
+            }
+            if (choice1 === "Capital") {
+                if (choice2 === "Department") {
+                    // Department wins
+                    return "Sorry! Better luck next time.";
+                } else {
+                    // Colombia wins
+                    return "Sorry! Better luck next time.";
+                }
+            }
+            if (choice1 === "Colombia") {
+                if (choice2 === "Department") {
+                    // Colombia wins
+                    return "You win!";
+                } else {
+                    // Colombia wins
+                    return "You win!";
+                }
+            }
+        };
+        // Run the compare function
+        var results = compare(userChoice,computerChoice);
+        // Display results
+        document.write("<br><hr><br>" + results);
+    </script>
+</div>
+<br>
+
+<footer>&copy; Casa Huilense 2017</footer>
+</body>
+</html>
